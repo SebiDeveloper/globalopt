@@ -1,0 +1,44 @@
+.question {
+    position: relative;
+    min-height: 440px;
+    padding: 62px 0 80px 0;
+    background: url(../img/bg/plane2.png) center center / cover no-repeat;
+    z-index: 0;
+    &__wrapper {
+        width: 896px;
+        margin: 0 auto;
+    }
+    &__descr {
+        padding: 20px 0;
+        background-color: #25333c;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__title {
+        font-size: 19px;
+        color: #fff;
+        font-weight: 700;
+        line-height: 20px;
+    }
+    &__subtitle {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__form {
+        padding-top: 18px;
+        padding-bottom: 32px;
+        background-color: rgba(#eee, .8);
+        text-align: center;
+    }
+    &__textarea {
+        width: 820px;
+        height: 72px;
+        margin-top: 8px;
+        margin-bottom: 18px;
+        border: 1px solid #616467;
+        border-radius: 5px;
+        resize: none;
+        padding: 19px 0 0 27px;
+    }
+}

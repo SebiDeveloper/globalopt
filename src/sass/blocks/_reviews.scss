@@ -1,0 +1,78 @@
+.review {
+    min-height: 360px;
+    padding: 50px 0 65px 0;
+    &__title {
+        color: #2e2e2e;
+        font-size: 26px;
+        line-height: 23px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &__divider {
+        margin: 0 auto 17px;
+        width: 148px;
+        height: 1px;
+        background-color: $main-color;
+    }
+    &__subtitle {
+        color: #2e2e2e;
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: center;
+    }
+    &__items {
+        position: relative;
+        margin: 30px auto 0 auto;
+        width: 750px;
+    }
+    &__item {
+        margin: 0 auto;
+        text-align: center;
+        .pixel {
+            width: 114px;
+            height: 114px;
+        }
+        &-img {
+            margin: 0 auto 20px;
+        }
+        &-title {
+            font-size: 18px;
+            color: #3a3a3a;
+            font-weight: 700;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+        &-descr {
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 0;
+        }
+    }
+    .slick-prev {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-50%);
+        left: 260px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 14px;
+            height: 46px;
+        }
+    }
+    .slick-next {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-50%);
+        right: 260px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 14px;
+            height: 46px;
+        }
+    }
+}

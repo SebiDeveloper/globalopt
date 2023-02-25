@@ -1,0 +1,58 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        width: 600px;
+        margin-bottom: 0;
+        &-item {
+            list-style-type: none;
+            border-right: 2px dotted #898989;
+            padding-right: 15px;
+            height: 27px;
+            &:last-child {
+                border: none;
+            }
+        }
+        &-link {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16px;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__call {
+        padding-top: 25px;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        color: white;
+        text-align: right;
+    }
+    &__phone {
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #ffffff;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+    &__btn {
+        margin-top: 25px;
+    }
+    &__hamburger {
+        display: none;
+    }
+}

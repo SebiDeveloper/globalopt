@@ -1,0 +1,45 @@
+.map {
+    position: relative;
+    height: 500px;
+    iframe {
+        z-index: 0;
+    }
+    &__wrapper {
+        position: absolute;
+        padding: 28px 50px;
+        margin-top: 155px;
+        top: 0;
+        left: 78%;
+        transform: translateX(-50%);
+        z-index: 1;
+        width: 329px;
+        height: 158px;
+        background-color: #ffffff;
+    }
+    &__title {
+        font-size: 16px;
+        color: $main-color;
+        font-weight: 700;
+    }
+    &__subtitle {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+    &__phone {
+        a {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300; 
+        }
+    }
+    &__info {
+        a {
+            font-size: 16px;
+            color: $main-color;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+    }
+}
